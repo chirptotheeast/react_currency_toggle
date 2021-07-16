@@ -1,8 +1,14 @@
 import './App.css';
+import CurrencyRow from "./CurrencyRow.js"
 
 function App() {
   return (
-  <h1> hello world</h1>
+    <>
+    <h1> Convert</h1>
+    <CurrencyRow />
+    <div>=</div>
+    <CurrencyRow />
+  </>
   );
 }
 

@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  display:  flex; 
+  justify-content: center;
+  align-items:center;
+  min-height: 100vh;
+}
+
+/* display flex lines everything up to center */
+/* margin: 0 removes all margins from body */
